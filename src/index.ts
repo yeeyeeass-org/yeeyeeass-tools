@@ -15,6 +15,10 @@ export const server = new McpServer({
   version: "1.0.0",
 });
 
+require("./tools/hello-world.tool");
+require("./tools/read-file.tool");
+
+
 // Handle POST requests for client-to-server communication
 app.post("/mcp", async (req, res) => {
   // Check for existing session ID
