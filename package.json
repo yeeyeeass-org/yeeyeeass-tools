@@ -11,6 +11,7 @@
   "devDependencies": {
     "@types/bun": "latest",
     "@types/express": "^5.0.3",
+    "@types/html-to-text": "^9.0.4",
     "@types/node": "^24.3.0"
   },
   "peerDependencies": {
@@ -20,6 +21,7 @@
     "@modelcontextprotocol/sdk": "^1.17.4",
     "express": "^5.1.0",
     "fast-glob": "^3.3.3",
+    "html-to-text": "^9.0.5",
     "zod": "3"
   }
 }

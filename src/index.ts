@@ -19,6 +19,8 @@ require("./tools/hello-world.tool");
 require("./tools/read-file.tool");
 require("./tools/write-file.tool");
 require("./tools/read-many-files.tool");
+require("./tools/shell.tool");
+require("./tools/web-fetch.tool");
 
 // Handle POST requests for client-to-server communication
 app.post("/mcp", async (req, res) => {
