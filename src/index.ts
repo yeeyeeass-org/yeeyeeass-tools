@@ -17,6 +17,7 @@ export const server = new McpServer({
 
 require("./tools/hello-world.tool");
 require("./tools/read-file.tool");
+require("./tools/write-file.tool");
 
 
 // Handle POST requests for client-to-server communication
